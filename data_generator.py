@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 def generate_data(num_rows):
     data = []
     start_date = datetime(2022, 1, 1)
-    end_date = datetime(2024, 12, 31)
+    end_date = datetime.today()
 
     for _ in range(num_rows):
         # Generate a random date between start_date and end_date

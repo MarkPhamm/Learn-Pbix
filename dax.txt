@@ -1,0 +1,5 @@
+TotalSalesQTD = 
+CALCULATE (
+    SUM ( Sales[Amount] ),
+    DATESQTD ( 'Date'[Date] )
+)
